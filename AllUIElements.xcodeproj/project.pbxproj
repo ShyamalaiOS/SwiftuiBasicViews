@@ -11,6 +11,7 @@
 		3C01010A2B3B3FEA00641DCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0101092B3B3FEA00641DCE /* ContentView.swift */; };
 		3C01010C2B3B3FEB00641DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C01010B2B3B3FEB00641DCE /* Assets.xcassets */; };
 		3C01010F2B3B3FEB00641DCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C01010E2B3B3FEB00641DCE /* Preview Assets.xcassets */; };
+		3C2465682B496DD400964AD3 /* TemperatureConverstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2465672B496DD400964AD3 /* TemperatureConverstion.swift */; };
 		3CBF18292B4706F10054A9A0 /* Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF18282B4706F10054A9A0 /* Forms.swift */; };
 		3CBF182B2B4710390054A9A0 /* StateProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF182A2B4710390054A9A0 /* StateProperty.swift */; };
 		3CBF182D2B4712180054A9A0 /* TextFeilds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF182C2B4712180054A9A0 /* TextFeilds.swift */; };
@@ -23,6 +24,7 @@
 		3C0101092B3B3FEA00641DCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C01010B2B3B3FEB00641DCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C01010E2B3B3FEB00641DCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C2465672B496DD400964AD3 /* TemperatureConverstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverstion.swift; sourceTree = "<group>"; };
 		3CBF18282B4706F10054A9A0 /* Forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forms.swift; sourceTree = "<group>"; };
 		3CBF182A2B4710390054A9A0 /* StateProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateProperty.swift; sourceTree = "<group>"; };
 		3CBF182C2B4712180054A9A0 /* TextFeilds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFeilds.swift; sourceTree = "<group>"; };
@@ -91,16 +93,17 @@
 		3CBF18262B4696750054A9A0 /* HackingWithSwift */ = {
 			isa = PBXGroup;
 			children = (
-				3CBF18272B4696850054A9A0 /* WeSplit */,
+				3CBF18272B4696850054A9A0 /* Project1_(UnitConverstion) */,
 			);
 			path = HackingWithSwift;
 			sourceTree = "<group>";
 		};
-		3CBF18272B4696850054A9A0 /* WeSplit */ = {
+		3CBF18272B4696850054A9A0 /* Project1_(UnitConverstion) */ = {
 			isa = PBXGroup;
 			children = (
+				3C2465672B496DD400964AD3 /* TemperatureConverstion.swift */,
 			);
-			path = WeSplit;
+			path = "Project1_(UnitConverstion)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +181,7 @@
 				3CBF182D2B4712180054A9A0 /* TextFeilds.swift in Sources */,
 				3C01010A2B3B3FEA00641DCE /* ContentView.swift in Sources */,
 				3C0101082B3B3FEA00641DCE /* AllUIElementsApp.swift in Sources */,
+				3C2465682B496DD400964AD3 /* TemperatureConverstion.swift in Sources */,
 				3CBF18292B4706F10054A9A0 /* Forms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
