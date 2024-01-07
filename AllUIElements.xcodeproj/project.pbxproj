@@ -19,6 +19,8 @@
 		3CA004E32B4AA076008E94DA /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA004E22B4AA076008E94DA /* ViewsAndModifiers.swift */; };
 		3CA004E52B4AB004008E94DA /* Views as properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA004E42B4AB004008E94DA /* Views as properties.swift */; };
 		3CA004E72B4B011B008E94DA /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA004E62B4B011B008E94DA /* CustomModifier.swift */; };
+		3CA004E92B4B0987008E94DA /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA004E82B4B0987008E94DA /* StepperView.swift */; };
+		3CA004EB2B4B0B01008E94DA /* DatepickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA004EA2B4B0B01008E94DA /* DatepickerView.swift */; };
 		3CA069772B4A6967006B231D /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA069762B4A6967006B231D /* Buttons.swift */; };
 		3CA069792B4A70EE006B231D /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA069782B4A70EE006B231D /* AlertView.swift */; };
 		3CA0697B2B4A73CF006B231D /* StackingUPButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA0697A2B4A73CF006B231D /* StackingUPButtons.swift */; };
@@ -42,6 +44,8 @@
 		3CA004E22B4AA076008E94DA /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
 		3CA004E42B4AB004008E94DA /* Views as properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views as properties.swift"; sourceTree = "<group>"; };
 		3CA004E62B4B011B008E94DA /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
+		3CA004E82B4B0987008E94DA /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		3CA004EA2B4B0B01008E94DA /* DatepickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatepickerView.swift; sourceTree = "<group>"; };
 		3CA069762B4A6967006B231D /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		3CA069782B4A70EE006B231D /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		3CA0697A2B4A73CF006B231D /* StackingUPButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackingUPButtons.swift; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 				3CA0697A2B4A73CF006B231D /* StackingUPButtons.swift */,
 				3CA004E42B4AB004008E94DA /* Views as properties.swift */,
 				3CA004E62B4B011B008E94DA /* CustomModifier.swift */,
+				3CA004E82B4B0987008E94DA /* StepperView.swift */,
+				3CA004EA2B4B0B01008E94DA /* DatepickerView.swift */,
 			);
 			path = BasicViews;
 			sourceTree = "<group>";
@@ -214,10 +220,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CA004EB2B4B0B01008E94DA /* DatepickerView.swift in Sources */,
 				3CA004E32B4AA076008E94DA /* ViewsAndModifiers.swift in Sources */,
 				3CBF182B2B4710390054A9A0 /* StateProperty.swift in Sources */,
 				3CBF182F2B4713340054A9A0 /* Loops.swift in Sources */,
 				3CA004E52B4AB004008E94DA /* Views as properties.swift in Sources */,
+				3CA004E92B4B0987008E94DA /* StepperView.swift in Sources */,
 				3C2465712B4996E800964AD3 /* GradientView.swift in Sources */,
 				3CA004E72B4B011B008E94DA /* CustomModifier.swift in Sources */,
 				3CA069772B4A6967006B231D /* Buttons.swift in Sources */,
