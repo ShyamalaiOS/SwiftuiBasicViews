@@ -16,6 +16,13 @@
 		3C24656D2B49865E00964AD3 /* StackViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C24656C2B49865E00964AD3 /* StackViews.swift */; };
 		3C24656F2B4989B500964AD3 /* ColorsFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C24656E2B4989B500964AD3 /* ColorsFrames.swift */; };
 		3C2465712B4996E800964AD3 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2465702B4996E800964AD3 /* GradientView.swift */; };
+		3C6436792B4BCA40007EB31A /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6436782B4BCA40007EB31A /* BetterRest.swift */; };
+		3C64367C2B4BD1E7007EB31A /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C64367B2B4BD1E7007EB31A /* WordScramble.swift */; };
+		3C64367E2B4BD286007EB31A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C64367D2B4BD286007EB31A /* ListView.swift */; };
+		3C6436802B4BE1FE007EB31A /* StringData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C64367F2B4BE1FD007EB31A /* StringData.swift */; };
+		3C6436822B4BE7BE007EB31A /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C6436812B4BE7BE007EB31A /* start.txt */; };
+		3C6436842B4BFD47007EB31A /* MyWorkScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6436832B4BFD47007EB31A /* MyWorkScramble.swift */; };
+		3C6436862B4C0C4D007EB31A /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6436852B4C0C4D007EB31A /* Animation.swift */; };
 		3CA004E32B4AA076008E94DA /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA004E22B4AA076008E94DA /* ViewsAndModifiers.swift */; };
 		3CA004E52B4AB004008E94DA /* Views as properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA004E42B4AB004008E94DA /* Views as properties.swift */; };
 		3CA004E72B4B011B008E94DA /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA004E62B4B011B008E94DA /* CustomModifier.swift */; };
@@ -41,6 +48,13 @@
 		3C24656C2B49865E00964AD3 /* StackViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViews.swift; sourceTree = "<group>"; };
 		3C24656E2B4989B500964AD3 /* ColorsFrames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsFrames.swift; sourceTree = "<group>"; };
 		3C2465702B4996E800964AD3 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		3C6436782B4BCA40007EB31A /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
+		3C64367B2B4BD1E7007EB31A /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
+		3C64367D2B4BD286007EB31A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		3C64367F2B4BE1FD007EB31A /* StringData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringData.swift; sourceTree = "<group>"; };
+		3C6436812B4BE7BE007EB31A /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		3C6436832B4BFD47007EB31A /* MyWorkScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkScramble.swift; sourceTree = "<group>"; };
+		3C6436852B4C0C4D007EB31A /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		3CA004E22B4AA076008E94DA /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
 		3CA004E42B4AB004008E94DA /* Views as properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views as properties.swift"; sourceTree = "<group>"; };
 		3CA004E62B4B011B008E94DA /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
@@ -120,6 +134,9 @@
 				3CA004E62B4B011B008E94DA /* CustomModifier.swift */,
 				3CA004E82B4B0987008E94DA /* StepperView.swift */,
 				3CA004EA2B4B0B01008E94DA /* DatepickerView.swift */,
+				3C64367D2B4BD286007EB31A /* ListView.swift */,
+				3C64367F2B4BE1FD007EB31A /* StringData.swift */,
+				3C6436852B4C0C4D007EB31A /* Animation.swift */,
 			);
 			path = BasicViews;
 			sourceTree = "<group>";
@@ -132,9 +149,29 @@
 			path = Project2;
 			sourceTree = "<group>";
 		};
+		3C6436772B4BCA33007EB31A /* Project4 */ = {
+			isa = PBXGroup;
+			children = (
+				3C6436782B4BCA40007EB31A /* BetterRest.swift */,
+			);
+			path = Project4;
+			sourceTree = "<group>";
+		};
+		3C64367A2B4BD1DA007EB31A /* PRoject5 */ = {
+			isa = PBXGroup;
+			children = (
+				3C6436812B4BE7BE007EB31A /* start.txt */,
+				3C64367B2B4BD1E7007EB31A /* WordScramble.swift */,
+				3C6436832B4BFD47007EB31A /* MyWorkScramble.swift */,
+			);
+			path = PRoject5;
+			sourceTree = "<group>";
+		};
 		3CBF18262B4696750054A9A0 /* HackingWithSwift */ = {
 			isa = PBXGroup;
 			children = (
+				3C64367A2B4BD1DA007EB31A /* PRoject5 */,
+				3C6436772B4BCA33007EB31A /* Project4 */,
 				3C2465692B49833F00964AD3 /* Project2 */,
 				3CBF18272B4696850054A9A0 /* Project1_(UnitConverstion) */,
 				3CA004E22B4AA076008E94DA /* ViewsAndModifiers.swift */,
@@ -208,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6436822B4BE7BE007EB31A /* start.txt in Resources */,
 				3C01010F2B3B3FEB00641DCE /* Preview Assets.xcassets in Resources */,
 				3C01010C2B3B3FEB00641DCE /* Assets.xcassets in Resources */,
 			);
@@ -223,21 +261,27 @@
 				3CA004EB2B4B0B01008E94DA /* DatepickerView.swift in Sources */,
 				3CA004E32B4AA076008E94DA /* ViewsAndModifiers.swift in Sources */,
 				3CBF182B2B4710390054A9A0 /* StateProperty.swift in Sources */,
+				3C6436792B4BCA40007EB31A /* BetterRest.swift in Sources */,
 				3CBF182F2B4713340054A9A0 /* Loops.swift in Sources */,
 				3CA004E52B4AB004008E94DA /* Views as properties.swift in Sources */,
 				3CA004E92B4B0987008E94DA /* StepperView.swift in Sources */,
 				3C2465712B4996E800964AD3 /* GradientView.swift in Sources */,
+				3C64367E2B4BD286007EB31A /* ListView.swift in Sources */,
+				3C6436842B4BFD47007EB31A /* MyWorkScramble.swift in Sources */,
 				3CA004E72B4B011B008E94DA /* CustomModifier.swift in Sources */,
 				3CA069772B4A6967006B231D /* Buttons.swift in Sources */,
 				3CA0697B2B4A73CF006B231D /* StackingUPButtons.swift in Sources */,
 				3CBF182D2B4712180054A9A0 /* TextFeilds.swift in Sources */,
 				3C01010A2B3B3FEA00641DCE /* ContentView.swift in Sources */,
 				3C24656D2B49865E00964AD3 /* StackViews.swift in Sources */,
+				3C64367C2B4BD1E7007EB31A /* WordScramble.swift in Sources */,
 				3C0101082B3B3FEA00641DCE /* AllUIElementsApp.swift in Sources */,
 				3CA069792B4A70EE006B231D /* AlertView.swift in Sources */,
 				3C2465682B496DD400964AD3 /* TemperatureConverstion.swift in Sources */,
 				3CBF18292B4706F10054A9A0 /* Forms.swift in Sources */,
+				3C6436802B4BE1FE007EB31A /* StringData.swift in Sources */,
 				3C24656B2B49835100964AD3 /* GuessTheFlag.swift in Sources */,
+				3C6436862B4C0C4D007EB31A /* Animation.swift in Sources */,
 				3C24656F2B4989B500964AD3 /* ColorsFrames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
