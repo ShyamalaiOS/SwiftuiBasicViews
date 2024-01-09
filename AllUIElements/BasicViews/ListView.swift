@@ -32,6 +32,8 @@ struct ListView: View {
             }
         }.listStyle(.grouped)
     }
+    
+  
 }
 
 #Preview {
